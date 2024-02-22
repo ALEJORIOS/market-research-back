@@ -3,6 +3,7 @@ const nodemailer = require("nodemailer");
 const fs = require("fs");
 const app = express();
 app.use(express.json());
+app.use(cors());
 const port = 3500;
 
 app.get("/", (req, res) => {

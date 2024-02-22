@@ -9,6 +9,10 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/test", (req, res) => {
+  res.send("Excelente")
+})
+
 app.post("/sendMail", async (req, res) => {
   await sendMail(
     req.body.mail,

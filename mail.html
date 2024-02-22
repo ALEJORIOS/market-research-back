@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <style>
+      * {
+        font-family: Tahoma, Helvetica, sans-serif;
+      }
       section {
         width: 500px;
         height: 800px;
         background: linear-gradient(130deg, #0e6ba8 50%, #55c3f1 120%);
         padding: 1rem;
+        border-radius: 12px;
       }
       .greeting {
         font-size: 40px;
-        font-family: "Comfortaa", sans-serif;
+        font-family: Comfortaa, Tahoma, Helvetica, sans-serif;
         font-weight: 700;
         color: white;
       }
@@ -27,6 +28,16 @@
         color: #fff;
         /* text-shadow: 0 0 1px #000; */
       }
+
+      img {
+        width: 150px;
+      }
+
+      section a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+      }
     </style>
   </head>
   <body>
@@ -34,7 +45,7 @@
       <div class="greeting">Hola!</div>
       <p>
         Me comunico contigo para presentarte una emocionante oportunidad que
-        podría transformar la gestión en tu empresa.
+        podría transformar la gestión en @%empresa%@.
       </p>
       <p>
         Tras analizar detenidamente las características y el potencial de tu
@@ -50,9 +61,11 @@
         para enfrentar los desafíos del crecimiento de manera eficiente.
       </p>
       <p>
-        Ayúdanos contestando esta encuesta de 5 minutos y darte la mejor
+        Ayúdanos contestando esta encuesta de cinco minutos y darte la mejor
         solución.
       </p>
+      <a href="https://hodweb.dev?id=&@id@&">Click aquí para abrir</a><br><br>
+      <img src="cid:logoHod"/>
     </section>
   </body>
 </html>

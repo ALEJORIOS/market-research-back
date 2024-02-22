@@ -96,32 +96,32 @@ async function receiveData(data) {
         ¿Hay áreas específicas donde sientas que un software personalizado podría
         mejorar la productividad?
       </td>
-      <td>${data?.two}</td>
+      <td>${data?.second}</td>
     </tr>
     <tr>
       <td>
         ¿Qué software o programa informático utilizas actualmente para la gestión
         de inventarios (WMS), de transporte(TMS) o de recursos(ERP)?
       </td>
-      <td>${data?.three}</td>
+      <td>${data?.third}</td>
     </tr>
     <tr>
       <td>¿Qué aspectos le gustan de la solución actual y que mejorarías?</td>
-      <td>${data?.four}</td>
+      <td>${data?.fourth}</td>
     </tr>
     <tr>
       <td>
         ¿Cuáles son las características clave que esperarías en un software a
         medida para tu empresa?
       </td>
-      <td>${data?.five}</td>
+      <td>${data?.fifth}</td>
     </tr>
     <tr>
       <td>
         ¿Hay integraciones específicas con otras herramientas que consideras
         indispensables?
       </td>
-      <td>${data?.six}</td>
+      <td>${data?.sixth}</td>
     </tr>
     <tr>
       <td>
@@ -129,13 +129,13 @@ async function receiveData(data) {
         que incorpore inteligencia artificial para optimizar los procesos
         empresariales?
       </td>
-      <td>${data?.seven}</td>
+      <td>${data?.seventh}</td>
     </tr>
     <tr>
       <td>
         ¿Está dispuesto a que te contactemos a través de correo electrónico?
       </td>
-      <td>${data?.eight}</td>
+      <td>${data?.eighth}</td>
     </tr>
   </table>
   <style>

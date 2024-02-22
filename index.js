@@ -82,6 +82,10 @@ async function receiveData(data) {
     text: "Datos de la empresa",
     html: `<table>
     <tr>
+      <td>ID de la Empresa</td>
+      <td>${data?.id}</td>
+    </tr>
+    <tr>
       <td>Nombre de la Empresa</td>
       <td>${data?.first}</td>
     </tr>
